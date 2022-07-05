@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#clear{
+    width:200px;
+}
+
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./mathbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+
+.formstyle{
+    width:fit-content;
+    height: fit-content;
+    padding: 15px;
+    margin: auto;
+    border-radius: 20px;
+    background:#E07C24;
+    border: 2px solid #FF6666;
+    box-shadow: 4px 4px 30px  #E03B8B; 
+}
+input{
+    width:50px;
+    height:30px;
+    margin:10px;
+    background-color: #35BDD0;
+    border: none;
+    border-radius: 40%;
+    font-size: 20px;
+}
+
+#operator{
+    background:#8D3DAF;
+}
+#answer{
+    width:200px;
+    border-radius: 20%;
+    background-color:#CAD5E2;
+    padding: 5px;
+}
